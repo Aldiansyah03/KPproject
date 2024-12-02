@@ -2,7 +2,6 @@ import { useState } from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Sidebar from "./Components/Sidebar";
 import Navbar from "./Components/Navbar";
-import Dashboard from "./Components/Dashboard";
 import StokBarang from "./Components/StockBarang";
 import ManageUser from "./Components/ManageUser";
 import Maintenance from "./Components/Maintenance";
@@ -23,7 +22,6 @@ function App() {
           <Navbar onToggleSidebar={toggleSidebar} isOpen={isSidebarOpen} />
           <div className="p-4 mt-20 overflow-y-auto">
             <Routes>
-              <Route path="/" element={<Dashboard />} />
               <Route path="/profile" element={<Profile />} />
               <Route path="/stokbarang" element={<StokBarang />} />
               <Route path="/manageuser" element={<ManageUser />} />

@@ -3,7 +3,7 @@ import PropTypes from "prop-types";
 
 const Search = ({ value, onChange, placeholder }) => {
   return (
-    <label className="input input-bordered flex items-center gap-2">
+    <label className="input input-bordered flex items-center gap-2 bg-white">
       <input
         type="text"
         className="grow"
