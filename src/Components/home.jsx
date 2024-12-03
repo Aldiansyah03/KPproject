@@ -69,9 +69,7 @@ const Home = () => {
         )}
       </div>
 
-      <div className="mt-6">
-        <h2 className="text-xl font-semibold mb-4">Analitik / Statistik</h2>
-      </div>
+
     </div>
   );
 };
